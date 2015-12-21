@@ -11,7 +11,17 @@ apt-get update
 apt-get install bdfproxy
 ```
 
-DerbyCon 2014 Presentation: http://www.youtube.com/watch?v=LjUN9MACaTs
+Black Hat USA 2015:
+
+    Video: https://www.youtube.com/watch?v=OuyLzkG16Uk
+    
+    Paper: https://www.blackhat.com/docs/us-15/materials/us-15-Pitts-Repurposing-OnionDuke-A-Single-Case-Study-Around-Reusing-Nation-State-Malware-wp.pdf
+
+
+DerbyCon 2014: 
+
+    Video: http://www.youtube.com/watch?v=LjUN9MACaTs
+
 
 About 18 minutes in is the BDFProxy portion.
 
@@ -54,8 +64,6 @@ Yes, some of those apps are protected by self checking mechanisms.  I've been wo
 	mitmProxy - Kali Build .10
 	BDF - most current
 	Capstone (part of BDF)
-	libmagic
-	python-magic
 
 ---
 ##Supported Environment:
@@ -133,6 +141,16 @@ We have it.  The proxy window will quickly fill with massive amounts of cat link
 
 
 ###Change Log:
+
+####11/13/2015
+
+Remove python-magic dependencies because there are two libraries that are named as such.  Which is confusing.
+
+
+####10/19/2015
+
+Add support for BDF Import Directory Patching into the a code cave vs a new section.  Update IDA_IN_CAVE to True in the bdfproxy.cfg file for this.  EXPERIMENTAL...
+
 
 ####8/12/2015
 
